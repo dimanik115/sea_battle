@@ -164,7 +164,4 @@ class Battle:
 
 if __name__ == '__main__':
     b = Battle()
-    for row in b._Battle__bot.get_pole():
-        print(*row)
-    print()
     b.begin_game()
